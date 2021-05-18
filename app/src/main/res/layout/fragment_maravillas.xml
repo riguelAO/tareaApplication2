@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maravillasFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/chichen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chichenimage" />
+            <Button
+                android:id="@+id/btnChichen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Chichen Itzá" />
+
+            <ImageView
+                android:id="@+id/cristo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cristoimage" />
+            <Button
+                android:id="@+id/btnCrito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Cristo Redentor" />
+
+            <ImageView
+                android:id="@+id/mahal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mahalimage" />
+            <Button
+                android:id="@+id/btnMahal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Tag Mahal" />
+
+            <ImageView
+                android:id="@+id/muralla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/murallaimage" />
+            <Button
+                android:id="@+id/btnMuralla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Muralla China" />
+
+            <ImageView
+                android:id="@+id/petra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/petraimage" />
+            <Button
+                android:id="@+id/btnPetra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Ciudad de Petra" />
+
+            <ImageView
+                android:id="@+id/picchu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/picchuimage" />
+            <Button
+                android:id="@+id/btnPicchu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Machupicchu" />
+
+            <ImageView
+                android:id="@+id/roma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/romaimage" />
+            <Button
+                android:id="@+id/btnroma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Coliseo Romano" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

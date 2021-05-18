@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".redirectFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gamer"
+        tools:context=".games_gallery">
+
+        <ImageButton
+            android:id="@+id/ibChrome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.111"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.194"
+            app:srcCompat="@drawable/chrome" />
+
+        <ImageButton
+            android:id="@+id/ibFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.891"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.194"
+            app:srcCompat="@drawable/facebook" />
+
+        <ImageButton
+            android:id="@+id/ibIg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.891"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ibFace"
+            app:layout_constraintVertical_bias="0.102"
+            app:srcCompat="@drawable/instagram" />
+
+        <ImageButton
+            android:id="@+id/ibPou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.117"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ibSteam"
+            app:layout_constraintVertical_bias="0.119"
+            app:srcCompat="@drawable/pou" />
+
+        <ImageButton
+            android:id="@+id/ibSteam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.111"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ibChrome"
+            app:layout_constraintVertical_bias="0.102"
+            app:srcCompat="@drawable/steam" />
+
+        <ImageButton
+            android:id="@+id/ibBike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ibFace"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toEndOf="@+id/ibChrome"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.194"
+            app:srcCompat="@drawable/bike" />
+
+        <ImageButton
+            android:id="@+id/ibHbo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ibBike"
+            app:layout_constraintVertical_bias="0.102"
+            app:srcCompat="@drawable/hbo" />
+
+        <ImageButton
+            android:id="@+id/ibGeometry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ibSpotify"
+            app:layout_constraintHorizontal_bias="0.472"
+            app:layout_constraintStart_toEndOf="@+id/ibPou"
+            app:layout_constraintTop_toBottomOf="@+id/ibHbo"
+            app:layout_constraintVertical_bias="0.118"
+            app:srcCompat="@drawable/geometry" />
+
+        <ImageButton
+            android:id="@+id/ibSpotify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.891"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.629"
+            app:srcCompat="@drawable/spotify" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

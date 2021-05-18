@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tareaapplication2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.tareaapplication2.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.tareaapplication2.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/calculadoraFragment"
+        android:name="com.example.tareaapplication2.calculadoraFragment"
+        android:label="fragment_calculadora"
+        tools:layout="@layout/fragment_calculadora" />
+    <fragment
+        android:id="@+id/maravillasFragment"
+        android:name="com.example.tareaapplication2.maravillasFragment"
+        android:label="fragment_maravillas"
+        tools:layout="@layout/fragment_maravillas" />
+    <fragment
+        android:id="@+id/redirectFragment"
+        android:name="com.example.tareaapplication2.redirectFragment"
+        android:label="fragment_redirect"
+        tools:layout="@layout/fragment_redirect" />
+    <fragment
+        android:id="@+id/webFragment2"
+        android:name="com.example.tareaapplication2.webFragment"
+        android:label="fragment_web"
+        tools:layout="@layout/fragment_web" />
+    <fragment
+        android:id="@+id/reproductorFragment"
+        android:name="com.example.tareaapplication2.reproductorFragment"
+        android:label="fragment_reproductor"
+        tools:layout="@layout/fragment_reproductor" />
+</navigation>
